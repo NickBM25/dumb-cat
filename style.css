@@ -77,10 +77,10 @@ body {
 }
 
 button {
-    font-size: 100%;
+    font-size: 3rem;
     color: white;
     background-color: rgba(255, 255, 255, 0.12);
-    padding: 10%;
+    padding: 2%;
     text-align: center;
     width: 25%;
     border: none;
@@ -89,8 +89,6 @@ button {
 }
 
 footer {
-    position: relative;
-  top: 0;
   width: 100%;
   background-color: green;
   display: flex;
@@ -98,12 +96,22 @@ footer {
   justify-content: center;
   text-align: center;
   letter-spacing: 0.3em;
-  font-size:1rem;
-  padding: 5% 0%;
+  font-size:3rem;
+  padding: 3vh 0%;
 }
 
 @media (orientation: portrait) {
     .section {
         margin: 5%;
+    }
+
+    footer {
+        padding: 5% 0%;
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 100%;
+        padding: 10%;
     }
 }
